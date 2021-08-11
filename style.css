@@ -1,0 +1,90 @@
+html{
+	font-size:10px;
+}
+
+html>*{
+	font-size:16px;
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color:#ccc;
+	background:url(imgs/background.jpg) no-repeat center center; 
+	background-size: cover; 
+}
+
+div[id]{
+	background-color:#ddd;
+	opacity:0.9;
+	border-radius:20px;
+	padding:5px;
+	margin:5rem;
+}
+
+header#title{
+	width:100%;
+	background-color:#aaaaff;
+	border-bottom:1px solid black;
+}
+
+header#title *{
+	margin:0px;
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+div[id]>*{
+	margin-left:15px;
+}
+
+nav{
+	display:none;
+	border-right:1px solid black;
+	background-color:#fff;
+	width:36%;
+	min-width:200px;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:100;
+	background-color:#ccc;
+}
+
+img.hamburger{
+	position:fixed;
+	margin:20px;
+	width:32px;
+	height:32px;
+	z-index:10;
+	border:1px black solid;
+	padding:5px;
+	border-radius:5px;
+}
+
+nav ul{
+	list-style:none;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	margin-top:72px;
+}
+
+nav ul li{
+	width:100%;
+	height:32px;
+	background-color:#ccc;
+}
+
+nav ul li a{
+	display:block;
+	padding:10px;
+	width:100%;
+	text-decoration:none;
+	color:#000;
+}
+
+nav ul li:hover{
+	background-color:#eee;
+}
